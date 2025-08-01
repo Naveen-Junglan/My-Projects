@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <style>
+        body{
+            box-sizing: border-box;
+            padding-left: 10rem;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label for="input">Ente the City Name</label>
+        <input type="text" id="city-input" placeholder="Enter City Name" />
+        <button id="search-btn">Search</button>
+    </div><hr>
+    <div>
+        <h4>Location :</h4><span id="cityName">Location</span><br>
+        <h4>Country :</h4><span id="country">Country</span><br>
+        <h4>Time </h4><span id="time">Time</span><br>
+        <h4>Temprature : (in C) </h4><span id="temp_c">Temp</span><br>
+        <h4>Temprature : (in F) </h4><span id="temp_f">Temp</span><br>
+        <h4>Latitude :  </h4><span id="lat">Latitude</span><br>
+        <h4>Longitude :  </h4><span id="long">Longitude</span><br>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
